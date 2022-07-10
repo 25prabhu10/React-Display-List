@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  border: 1px solid #356356;
+  padding: 2em 3em;
+}
+
+.list__item {
+  list-style: none;
+  line-height: 2;
+  font-weight: 400;
+}
+
+.list__item:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
